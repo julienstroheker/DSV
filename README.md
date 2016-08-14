@@ -6,6 +6,8 @@ Deploy an environmnet using Vagrant with per default :
 
 Using the last version of Docker 1.12.0 (2016-07-14)
 
+This configuration activate the remote API on the manager on the port 4243, this port il also forwarded Guest to Host.
+
 Possibility to change some settings like :
 * Add more workers
 * Change IP

@@ -1,4 +1,5 @@
 !/scripts
 .vagrant
-worker_token
+wtoken
+mtoken
 .DS_Store
