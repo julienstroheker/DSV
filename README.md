@@ -1,0 +1,1 @@
+## Docker Swarm Vagrant (DSV) - with 1.12 ##
