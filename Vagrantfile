@@ -1,6 +1,6 @@
-########################################
-### https://github.com/mtlgo/DSV.git ###
-########################################
+##################################################
+### https://github.com/julienstroheker/DSV.git ###
+##################################################
 
 Vagrant.configure("2") do |config|
   config.vm.provision :shell, path: "scripts/bootstrap.sh"
