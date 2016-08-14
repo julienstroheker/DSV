@@ -13,7 +13,7 @@ Possibility to change some settings like :
 ### How to ###
 
 ```
-git clone https://github.com/mtlgo/DSV.git
+git clone https://github.com/julienstroheker/DSV.git
 vagrant up
 ```
 
