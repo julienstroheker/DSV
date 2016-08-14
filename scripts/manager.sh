@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ########################################
-### https://github.com/mtlgo/DSV.git ###
+### https://github.com/julienstroheker/DSV.git ###
 ########################################
 
 docker swarm init --advertise-addr 10.0.0.10

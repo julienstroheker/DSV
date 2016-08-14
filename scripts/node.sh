@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ########################################
-### https://github.com/mtlgo/DSV.git ###
+### https://github.com/julienstroheker/DSV.git ###
 ########################################
 
 TOKEN=`cat /vagrant/worker_token`
