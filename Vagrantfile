@@ -5,6 +5,7 @@
 Vagrant.configure("2") do |config|
   config.vm.provision :shell, path: "scripts/bootstrap.sh"
   config.vm.box = "ubuntu/trusty64"
+  config.ssh.shell = "bash -c 'BASH_ENV=/etc/profile exec bash'"
 
     config.vm.define "manager" do |manager|
       manager.vm.hostname = "manager"

@@ -8,6 +8,8 @@
 service docker stop
 sed -i '38s|DOCKER_OPTS=|DOCKER_OPTS="-H tcp://0.0.0.0:4243 -H unix:///var/run/docker.sock"|1' /etc/init/docker.conf
 service docker start
+# Wait before to launch the docker swarm command
+sleep 5s
 
 # Create the Swarm Cluster
 docker swarm init --advertise-addr 10.0.0.10
