@@ -1,5 +1,7 @@
 ## Docker Swarm Vagrant (DSV) - with 1.12 ##
 
+! Using VirtualBox as provider !
+
 Deploy an environmnet using Vagrant with per default :
 * 1 Ubuntu machine running Docker Swarm as manager
 * 2 Ubuntu machines running Docker Swarm as worker
