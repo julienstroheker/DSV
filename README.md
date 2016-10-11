@@ -29,3 +29,5 @@ vagrant ssh node-2
 ```
 
 Ask questions or just follow me : [@ju_stroh](https://twitter.com/Ju_Stroh)
+
+[![Analytics](https://ga-beacon.appspot.com/UA-85536321-1/DSV/readme?pixel)](https://github.com/igrigorik/ga-beacon)
